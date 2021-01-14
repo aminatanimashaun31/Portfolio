@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Landing Page</title>
+</head>
+<body>
+    <section class="banner" id="sec">
+        <header>
+            <a href="#">LOGO</a>
+            <div id="toggle" onclick="toggle()"></div>
+        </header>
+        <div>
+            <h2>Hello, <br>I'm <span>Animashaun Aminat</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, suscipit? Laborum voluptates doloribus fugiat ad laudantium sapiente incidunt iste similique.</p>
+            <a href="#">Know More</a>
+        </div>
+        <ul class="social-media">
+            <li><a href="#"><img src="facebook.png"></a></li>
+            <li><a href="#"><img src="linkedin.png"></a></li>
+        </ul>
+    </section>
+
+    <div id="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <script type="text/javscript">
+        function toggle(){
+            var sec = document.getElementbyId('sec');
+            sec.classList.toggle('active')
+        }
+
+    </script>
+</body>
+</html>
